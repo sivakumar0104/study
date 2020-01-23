@@ -1,0 +1,32 @@
+Routing:
+ng generate module app-routing --flat --module=app
+
+generate module:
+ng g module module name
+
+generate components:
+ng g component component name
+
+run project:
+ng serve
+
+get node version:
+ng -v
+
+get angular cli version:
+ng --version
+
+install npm:
+npm install
+
+create new project:
+ng new project name
+
+run in differnt port:
+ng serve --port 4401 
+
+run in production mode:
+ng build --prod
+
+create service
+ng generate service service name

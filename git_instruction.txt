@@ -1,0 +1,13 @@
+git:
+
+1. git add --all
+2. git commit -m "add you comments here"
+3. git push -u origin master
+
+
+git config --global user.name "Sivakumar S"
+git config --global user.email "sivakumar@doerstech.com"
+
+git clone http://sivakumar@192.168.1.12:7990/scm/de/dhanu-erp.git
+
+cd existing-project

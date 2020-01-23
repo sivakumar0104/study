@@ -1,0 +1,4 @@
+API Integration reference link:
+1. https://www.djamware.com/post/5d8d7fc10daa6c77eed3b2f2/angular-8-tutorial-rest-api-and-httpclient-examples
+
+https://dev.to/duomly/how-to-build-an-angular-8-application-with-api-request-in-10-minutes-34m8
