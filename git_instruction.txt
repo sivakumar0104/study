@@ -11,3 +11,8 @@ git config --global user.email "sivakumar@doerstech.com"
 git clone http://sivakumar@192.168.1.12:7990/scm/de/dhanu-erp.git
 
 cd existing-project
+
+for create new git repository follow this link:
+https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/
+
+siva
