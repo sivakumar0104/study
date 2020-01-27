@@ -15,4 +15,4 @@ cd existing-project
 for create new git repository follow this link:
 https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/
 
-siva
+git push -f origin master

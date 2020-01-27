@@ -29,6 +29,18 @@ export const navItems: INavData[] = [
     name: 'Components'
   },
   {
+    name: 'Test',
+    url: '/buttons',
+    icon: 'icon-cursor',
+    children: [
+      {
+        name: 'page1',
+        url: '/test/page1',
+        icon: 'icon-cursor'
+      },
+    ]
+  },
+  {
     name: 'Base',
     url: '/base',
     icon: 'icon-puzzle',
