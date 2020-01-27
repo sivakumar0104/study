@@ -8,17 +8,17 @@
           <table class="table">
             <thead>
               <tr>
-                <th>Username</th>
-                <th>Date registered</th>
-                <th>Role</th>
+                <th>Employee Code</th>
+                <th>Name</th>
+                <th>Email</th>
                 <th>Status</th>
               </tr>
             </thead>
             <tbody>
               <tr *ngFor="let album of albums | async">
-                <td>{{album.id}}</td>
-                <td>{{album.userId}}</td>
-                <td>{{album.title}}</td>
+                <td>{{album.employee_code}}</td>
+                <td>{{album.first_name}}</td>
+                <td>{{album.email}}</td>
                 <td>
                   <span class="badge badge-success">Active</span>
                 </td>

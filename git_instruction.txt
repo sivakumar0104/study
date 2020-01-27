@@ -16,3 +16,7 @@ for create new git repository follow this link:
 https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/
 
 git push -f origin master
+
+
+my git url:
+https://github.com/sivakumar0104/study.git
