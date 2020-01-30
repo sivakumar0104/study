@@ -16,5 +16,12 @@ class testcontroller extends CI_Controller {
     	echo json_encode($this->test_model->get_employee());
     }
 
+    public function view_particular_data()
+    {
+        $input = $this->input->post();
+        print_r($input);exit;
+        echo json_encode($this->test_model->view_particular_data());
+    }
+
 
 }

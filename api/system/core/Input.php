@@ -253,6 +253,10 @@ class CI_Input {
 	 */
 	public function post($index = NULL, $xss_clean = NULL)
 	{
+		$postdata = file_get_contents("php://input");
+		if(getallheaders()['Accept'] == 'application/json, text/plain, */*'){
+			return json_decode($postdata);
+		}
 		return $this->_fetch_from_array($_POST, $index, $xss_clean);
 	}
 

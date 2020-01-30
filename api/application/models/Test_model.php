@@ -10,6 +10,17 @@ class test_model extends CI_Model
     			->where('status','ACTIVE')
     			->get()->result_array();
     	return $data;
-    }
+	}
+	
+	public function view_particular_data($id)
+	{
+		$data = $this->db->select('*')
+    			->from('employee_master')
+    			->where('emp_id',$id)
+    			->get()->row_array();
+    	return $data;
+	}
+
+
 }
 ?>

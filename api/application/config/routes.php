@@ -53,3 +53,4 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['get_employee_list'] = 'testcontroller/get_employee';
+$route['view_particular_data'] = 'testcontroller/view_particular_data';
